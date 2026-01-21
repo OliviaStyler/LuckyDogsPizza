@@ -1,0 +1,27 @@
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: -10px;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-top:0px;
+    margin-bottom:20px;
+    text-align: right;
+    font-size: 1em;
+    align-items:center;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #52bad5;
+}
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

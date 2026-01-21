@@ -1,0 +1,69 @@
+body{
+    margin:0px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+/* Page container styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0;
+    float: left;
+    border: 1px solid #52bad5;
+}
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+/* Squares grid styles */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+.square > .img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+    font-size:14px;
+}
+.square > .square-text-wrapper h1 {
+    color: #52bad5;
+}
+/* Helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%
+}
+.disclaimer{
+  font-size: 12px;
+  text-align: center;
+}

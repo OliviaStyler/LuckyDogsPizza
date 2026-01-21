@@ -1,0 +1,41 @@
+/* helpers */
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+/*   font-size: 18px; */
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+
+.spacer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .dark-bg {
+    background-color: #11122b;
+    color: #cbcbcb;
+  }
+  
+  .phone a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .phone a:hover {
+    color: #52bad5;
+    text-decoration: none;
+  }
